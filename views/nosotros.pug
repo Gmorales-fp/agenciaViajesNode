@@ -1,0 +1,39 @@
+extends ./layout/index
+//- //-una de las formas de mostrar variables
+//-  p= viajes 
+//- //- otra forma de hacerlo
+//- //- p #{viajes}
+
+//- block contenido
+//-     p Nosotros
+    
+//-     //- img(src="img/cupon.jpg")
+
+block contenido
+    main.container.mt-5
+        .row 
+            .col-md-5
+                img(src="img/nosotros.jpg", alt="nosotros", class="img-fluid")
+            .col-md-7
+                h1=pagina
+                blockquote Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ullamcorper auctor ex sed pellentesque. Fusce nulla diam, lacinia id purus at, rutrum convallis urna. Vestibulum ut scelerisque ipsum, at hendrerit sem. Nullam quis luctus diam. Curabitur nisi magna, cursus ut velit vitae, vulputate lacinia mauris. Mauris condimentum metus eget turpis pharetra, sed sagittis urna consequat.
+
+                p Mauris eget quam in lacus tincidunt posuere. Cras ac enim eget risus cursus congue. Aliquam et mi non sem pellentesque sagittis. Nulla scelerisque bibendum leo, ut hendrerit neque mollis at. Phasellus ullamcorper pulvinar turpis ac posuere. Quisque tristique hendrerit sodales. 
+
+                p Integer fringilla aliquet ornare. Vestibulum tincidunt risus erat, et tempor erat ultricies sed. Donec eleifend vel nunc vitae vulputate. Sed facilisis dui et enim tempor, sit amet maximus lacus sollicitudin. In pretium lobortis libero elementum sodales.
+    
+    .listado-iconos
+        .container.mt-5.py-5.text-center 
+            .row 
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", alt="icono seguridad", class="img-fluid mb-4")
+                    h2.mb-4 Seguridad 
+                    p Mauris eget quam in lacus tincidunt posuere. Cras ac enim eget risus cursus congue.
+                .col-md-4
+                    img(src="img/icono_destinos.svg", alt="icono seguridad", class="img-fluid mb-4")
+                    h2.mb-4 Mejores destinos 
+                    p Mauris eget quam in lacus tincidunt posuere. Cras ac enim eget risus cursus congue.
+                .col-md-4
+                    img(src="img/icono_precios.svg", alt="icono seguridad", class="img-fluid mb-4")
+                    h2.mb-4 Los mejores precios 
+                    p Mauris eget quam in lacus tincidunt posuere. Cras ac enim eget risus cursus congue.
